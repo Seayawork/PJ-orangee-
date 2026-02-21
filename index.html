@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="เจลล้างมือจากเปลือกส้ม O'Rangee สะอาดและปลอดภัยต่อการสัมผัส">
+    <title>O'Rangee | เจลล้างมือจากเปลือกส้ม</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&family=Sarabun:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="images/logo/Orange-1.png" alt="O'Rangee Logo" class="nav-logo-img">
+                <span class="nav-logo-text">O'Rangee</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">หน้าแรก</a></li>
+                <li><a href="#about">ที่มา</a></li>
+                <li><a href="#materials">วัสดุอุปกรณ์</a></li>
+                <li><a href="#ingredients">ส่วนผสม</a></li>
+                <li><a href="#process">ขั้นตอน</a></li>
+                <li><a href="#benefits">ประโยชน์</a></li>
+                <li><a href="#team">ผู้จัดทำ</a></li>
+                <li><a href="#teachers">คณะครู</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== 1. HERO / หน้าแรก ===== -->
+    <section class="hero" id="home">
+        <div class="float-decor">🍊</div>
+        <div class="float-decor">🍃</div>
+        <div class="float-decor">🌿</div>
+        <div class="float-decor">✨</div>
+        <div class="float-decor">🧴</div>
+        <div class="float-decor">🍊</div>
+
+        <div class="hero-content">
+            <div class="hero-logo-frame">
+                <img src="images/logo/Orange-1.png" alt="O'Rangee Organic Clean Gel" class="hero-logo-img">
+            </div>
+            <h1 class="hero-title">เจลล้างมือจาก<span class="highlight">เปลือกส้ม</span></h1>
+            <p class="hero-subtitle">Organic Clean Gel</p>
+            <p class="hero-tagline">สะอาดและปลอดภัยต่อการสัมผัส ผลิตจากธรรมชาติ 100%<br>ลดสารเคมี
+                เป็นมิตรต่อผิวและสิ่งแวดล้อม</p>
+            <a href="#about" class="hero-cta">
+                <span>เรียนรู้เพิ่มเติม</span>
+                <span>↓</span>
+            </a>
+        </div>
+
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0 100L60 85C120 70 240 40 360 30C480 20 600 30 720 45C840 60 960 80 1080 75C1200 70 1320 40 1380 25L1440 10V100H0Z"
+                    fill="white" opacity="0.4" />
+                <path
+                    d="M0 100L60 90C120 80 240 60 360 55C480 50 600 60 720 65C840 70 960 65 1080 55C1200 45 1320 30 1380 22L1440 15V100H0Z"
+                    fill="white" opacity="0.6" />
+                <path
+                    d="M0 100L60 92C120 85 240 70 360 68C480 65 600 75 720 78C840 80 960 75 1080 65C1200 55 1320 40 1380 32L1440 25V100H0Z"
+                    fill="#FFFDF7" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- ===== 2. ที่มาและความสำคัญของโครงงาน ===== -->
+    <section class="section about" id="about">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-badge">📋 โครงงาน</div>
+                <h2 class="section-title">ที่มาและ<span class="highlight">ความสำคัญ</span>ของโครงงาน</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image reveal-left">
+                    <div class="about-image-inner">
+                        <span class="about-image-emoji">🍊</span>
+                        <span class="about-image-caption">เปลือกส้ม ✦ สารต้านเชื้อโรคจากธรรมชาติ</span>
+                    </div>
+                </div>
+                <div class="about-text reveal-right">
+                    <h3>🍊 ที่มาของโครงงาน</h3>
+                    <p>ความตระหนักถึงคุณสมบัติของเปลือกส้มในการต้านเชื้อโรคและแบคทีเรีย
+                        และต้องการลดการใช้สารเคมีอันตรายในเจลล้างมือสำเร็จรูป
+                        โครงงานนี้จึงเกิดขึ้นเพื่อนำของเหลือทิ้งอย่างเปลือกส้มมาแปรรูปเป็นผลิตภัณฑ์ที่มีประโยชน์</p>
+                    <p>การนำทรัพยากรมาใช้ให้คุ้มค่า เปลือกส้มเป็นผลพลอยได้จากอุตสาหกรรมอาหารที่มักถูกทิ้ง
+                        การนำมาใช้จะช่วยลดปริมาณขยะและเพิ่มมูลค่าให้กับของเหลือทิ้ง</p>
+                    <div class="about-highlight">
+                        <p>❝ เพิ่มมูลค่าให้กับเปลือกส้ม สร้างผลิตภัณฑ์ทำความสะอาดมือที่ปลอดภัย เป็นมิตรต่อสิ่งแวดล้อม
+                            และส่งเสริมเศรษฐกิจหมุนเวียน ❞</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 80px;">
+                <h3 class="section-title reveal" style="text-align:center; font-size:1.8rem;">ความสำคัญของ<span
+                        class="highlight-green">โครงงาน</span></h3>
+                <div class="section-divider reveal" style="margin-bottom:48px;"></div>
+                <div class="importance-grid">
+                    <div class="importance-card reveal">
+                        <div class="importance-icon">💚</div>
+                        <div class="importance-text">
+                            <h4>ส่งเสริมสุขภาพ</h4>
+                            <p>ผลิตเจลล้างมือที่สามารถฆ่าเชื้อโรคและลดความเสี่ยงจากโรคต่างๆ
+                                โดยใช้สารสกัดจากเปลือกส้มที่มีฤทธิ์ต้านแบคทีเรียตามธรรมชาติ</p>
+                        </div>
+                    </div>
+                    <div class="importance-card reveal">
+                        <div class="importance-icon green">🌍</div>
+                        <div class="importance-text">
+                            <h4>ลดผลกระทบต่อสิ่งแวดล้อม</h4>
+                            <p>ใช้เปลือกส้มซึ่งเป็นทรัพยากรธรรมชาติที่หาได้ง่ายมาแปรรูป
+                                ทำให้ลดการพึ่งพาสารเคมีและลดปริมาณขยะในอุตสาหกรรมอาหาร</p>
+                        </div>
+                    </div>
+                    <div class="importance-card reveal">
+                        <div class="importance-icon">♻️</div>
+                        <div class="importance-text">
+                            <h4>ส่งเสริมเศรษฐกิจหมุนเวียน</h4>
+                            <p>นำของเหลือทิ้งมาสร้างมูลค่าเพิ่ม เปลี่ยนขยะให้เป็นผลิตภัณฑ์ที่มีประโยชน์
+                                ลดต้นทุนการผลิตและเป็นมิตรกับโลก</p>
+                        </div>
+                    </div>
+                    <div class="importance-card reveal">
+                        <div class="importance-icon green">🧪</div>
+                        <div class="importance-text">
+                            <h4>ลดการใช้สารเคมีอันตราย</h4>
+                            <p>ผลิตภัณฑ์จากธรรมชาติที่ปลอดภัยต่อผิวหนัง ลดการระคายเคือง เหมาะสำหรับทุกเพศทุกวัย</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 3. วัสดุอุปกรณ์ (6 รูป) ===== -->
+    <section class="section materials" id="materials">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-badge">🔧 วัสดุอุปกรณ์</div>
+                <h2 class="section-title"><span class="highlight">วัสดุอุปกรณ์</span>ที่ใช้ในการทำ</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="materials-grid">
+                <div class="material-card reveal">
+                    <img src="images/materials/Materials-1.png" alt="อุปกรณ์ 1" class="material-img">
+                    <h4>อุปกรณ์ 1</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+                <div class="material-card reveal">
+                    <img src="images/materials/Materials-2.png" alt="อุปกรณ์ 2" class="material-img">
+                    <h4>อุปกรณ์ 2</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+                <div class="material-card reveal">
+                    <img src="images/materials/Materials-3.png" alt="อุปกรณ์ 3" class="material-img">
+                    <h4>อุปกรณ์ 3</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+                <div class="material-card reveal">
+                    <img src="images/materials/Materials-4.png" alt="อุปกรณ์ 4" class="material-img">
+                    <h4>อุปกรณ์ 4</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+                <div class="material-card reveal">
+                    <img src="images/materials/Materials-5.png" alt="อุปกรณ์ 5" class="material-img">
+                    <h4>อุปกรณ์ 5</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+                <div class="material-card reveal">
+                    <img src="images/materials/Materials-6.png" alt="อุปกรณ์ 6" class="material-img">
+                    <h4>อุปกรณ์ 6</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 4. ส่วนผสม (4 รูป) ===== -->
+    <section class="section ingredients-section" id="ingredients">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-badge">🧪 ส่วนผสม</div>
+                <h2 class="section-title"><span class="highlight">ส่วนผสม</span>ในการทำเจลล้างมือ</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="ingredients-grid">
+                <div class="ingredient-card reveal">
+                    <img src="images/ingredients/ingredients-1.png" alt="ส่วนผสม 1" class="ingredient-img">
+                    <h4>ส่วนผสม 1</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+                <div class="ingredient-card reveal">
+                    <img src="images/ingredients/ingredients-2.png" alt="ส่วนผสม 2" class="ingredient-img">
+                    <h4>ส่วนผสม 2</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+                <div class="ingredient-card reveal">
+                    <img src="images/ingredients/ingredients-3.png" alt="ส่วนผสม 3" class="ingredient-img">
+                    <h4>ส่วนผสม 3</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+                <div class="ingredient-card reveal">
+                    <img src="images/ingredients/ingredients-4.png" alt="ส่วนผสม 4" class="ingredient-img">
+                    <h4>ส่วนผสม 4</h4>
+                    <p>คำอธิบาย</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 5. ขั้นตอนการทำ (9 รูป) ===== -->
+    <section class="section process" id="process">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-badge">📝 ขั้นตอน</div>
+                <h2 class="section-title"><span class="highlight">ขั้นตอนการทำ</span>เจลล้างมือจากเปลือกส้ม</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="steps-timeline">
+                <!-- ขั้นตอนที่ 1: 2 รูป -->
+                <div class="step-item reveal">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-images two">
+                            <img src="images/steps/steps1-1.png" alt="ต้มเปลือกส้ม" class="step-img">
+                            <img src="images/steps/steps1-2.png" alt="กรองน้ำเปลือกส้ม" class="step-img">
+                        </div>
+                        <h4>ต้มเปลือกส้มและกรอง</h4>
+                        <p>นำเปลือกส้มไปต้มในน้ำเดือดเป็นเวลา 30 นาที พักทิ้งไว้ให้เย็น แล้วนำมากรอง</p>
+                    </div>
+                </div>
+                <!-- ขั้นตอนที่ 2: 2 รูป -->
+                <div class="step-item reveal">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-images two">
+                            <img src="images/steps/steps2-1.png" alt="ใส่เกลือและ N70" class="step-img">
+                            <img src="images/steps/steps2-2.png" alt="คนให้เป็นเนื้อเดียวกัน" class="step-img">
+                        </div>
+                        <h4>ผสมเกลือและ N70</h4>
+                        <p>นำเกลือ 200 กรัม ใส่ในกะละมัง ตามด้วย N70 300 กรัม คนให้เป็นเนื้อเดียวกัน</p>
+                    </div>
+                </div>
+                <!-- ขั้นตอนที่ 3: 3 รูป -->
+                <div class="step-item reveal">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-images three">
+                            <img src="images/steps/steps3-1.png" alt="ใส่น้ำเปลือกส้ม" class="step-img">
+                            <img src="images/steps/steps3-2.png" alt="เติมทีละนิด" class="step-img">
+                            <img src="images/steps/steps3-3.png" alt="เติมน้ำเปล่า" class="step-img">
+                        </div>
+                        <h4>เติมน้ำเปลือกส้มและน้ำเปล่า</h4>
+                        <p>นำน้ำจากเปลือกส้มมาใส่ 3 กระบวย แล้วเติมทีละนิด ตามด้วยน้ำเปล่า 1,000 มิลลิลิตร</p>
+                    </div>
+                </div>
+                <!-- ขั้นตอนที่ 4: 2 รูป -->
+                <div class="step-item reveal">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <div class="step-images two">
+                            <img src="images/steps/steps4-1.png" alt="คนส่วนผสม" class="step-img">
+                            <img src="images/steps/steps4-2.png" alt="บรรจุภัณฑ์" class="step-img">
+                        </div>
+                        <h4>คนส่วนผสมและบรรจุภัณฑ์</h4>
+                        <p>คนส่วนผสมให้เข้ากัน พักทิ้งไว้ 1 คืน รอจนใส แล้วนำบรรจุภัณฑ์ใส่ภาชนะ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 6. ประโยชน์ (1 รูป) ===== -->
+    <section class="section benefits" id="benefits">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-badge">✨ จุดเด่น</div>
+                <h2 class="section-title"><span class="highlight">ประโยชน์</span>ของเจลล้างมือจากเปลือกส้ม</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="benefits-layout reveal">
+                <div class="benefits-image">
+                    <img src="images/benefits/benefits-1.png" alt="ประโยชน์ของเจลล้างมือ" class="benefits-main-img">
+                </div>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🦠</span>
+                        <div>
+                            <h4>มีคุณสมบัติต้านเชื้อแบคทีเรีย</h4>
+                            <p>เปลือกส้มมีคุณสมบัติต้านเชื้อแบคทีเรียที่สามารถช่วยลดจำนวนแบคทีเรียบนมือได้</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">✨</span>
+                        <div>
+                            <h4>ช่วยบำรุงผิว</h4>
+                            <p>เปลือกส้มมีวิตามินซีและสารต้านอนุมูลอิสระที่ช่วยบำรุงผิวและทำให้ผิวหนังนุ่มนวล</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🛡️</span>
+                        <div>
+                            <h4>ไม่มีสารเคมีที่เป็นอันตราย</h4>
+                            <p>เจลล้างมือจากเปลือกส้มมักจะไม่มีสารเคมีที่เป็นอันตราย เช่น แอลกอฮอล์ หรือสารกันเสีย
+                                ทำให้ปลอดภัยต่อการใช้บนผิวหนัง</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 7. คณะผู้จัดทำ (3 รูป) ===== -->
+    <section class="section team" id="team">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-badge">👥 ทีมงาน</div>
+                <h2 class="section-title">คณะ<span class="highlight">ผู้จัดทำ</span></h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card reveal">
+                    <div class="team-avatar-img">
+                        <img src="images/team/team-1.png" alt="วริศรา สีผักผ่อง" class="avatar-img">
+                    </div>
+                    <h4>นางสาว วริศรา สีผักผ่อง (ปั๊บ)</h4>
+                    <div class="team-role">ระดับชั้น ปวช.3/1</div>
+                    <span class="team-id">รหัส 65202040041</span>
+                    <div class="team-dept">สาขาคอมพิวเตอร์ธุรกิจ</div>
+                    <div class="team-college">วิทยาลัยเทคนิคกาญจนาภิเษกอุดรธานี</div>
+                </div>
+                <div class="team-card reveal">
+                    <div class="team-avatar-img">
+                        <img src="images/team/team-2.png" alt="ปาริชาติ มาลาด" class="avatar-img">
+                    </div>
+                    <h4>นางสาว ปาริชาติ มาลาด (อาย)</h4>
+                    <div class="team-role">ระดับชั้น ปวช.3/1</div>
+                    <span class="team-id">รหัส 6520204004</span>
+                    <div class="team-dept">สาขาคอมพิวเตอร์ธุรกิจ</div>
+                    <div class="team-college">วิทยาลัยเทคนิคกาญจนาภิเษกอุดรธานี</div>
+                </div>
+                <div class="team-card reveal">
+                    <div class="team-avatar-img">
+                        <img src="images/team/team-3.png" alt="ปริญญา โคตรติ" class="avatar-img">
+                    </div>
+                    <h4>นาย ปริญญา โคตรติ (เก่ง)</h4>
+                    <div class="team-role">ระดับชั้น ม.6</div>
+                </div>
+            </div>
+
+            <div class="team-info-box reveal">
+                <div class="team-info-inner">
+                    <p class="info-title">🏫 สาขาคอมพิวเตอร์ธุรกิจ</p>
+                    <p class="info-desc">วิทยาลัยเทคนิคกาญจนาภิเษกอุดรธานี</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 8. คณะครู (3 รูป) ===== -->
+    <section class="section teachers" id="teachers">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-badge">🏫 ที่ปรึกษา</div>
+                <h2 class="section-title">คณะ<span class="highlight-green">ครู</span>ที่ปรึกษา</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="teachers-grid">
+                <div class="teacher-card reveal">
+                    <div class="teacher-avatar-img">
+                        <img src="images/teachers/teachers-1.png" alt="นาง บุษกรณ์ วงศ์ภูมี" class="avatar-img">
+                    </div>
+                    <h4>นาง บุษกรณ์ วงศ์ภูมี</h4>
+                    <div class="teacher-role">ครูผู้สอนโครงงาน</div>
+                    <span class="teacher-subject">สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล</span>
+                    <div class="teacher-college">วิทยาลัยเทคนิคกาญจนาภิเษกอุดรธานี</div>
+                </div>
+                <div class="teacher-card reveal">
+                    <div class="teacher-avatar-img">
+                        <img src="images/teachers/teachers-2.png" alt="นายวีรยุทธ บุตรศรีภูเภา" class="avatar-img">
+                    </div>
+                    <h4>นายวีรยุทธ บุตรศรีภูเภา</h4>
+                    <div class="teacher-role">ครูที่ปรึกษา</div>
+                    <span class="teacher-subject">สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล</span>
+                    <div class="teacher-college">วิทยาลัยเทคนิคกาญจนาภิเษกอุดรธานี</div>
+                </div>
+                <div class="teacher-card reveal">
+                    <div class="teacher-avatar-img">
+                        <img src="images/teachers/teachers-3.png" alt="ครูละมัย ข่างเเคน" class="avatar-img">
+                    </div>
+                    <h4>ครูละมัย ข่างเเคน</h4>
+                    <div class="teacher-role">ครูที่ปรึกษาร่วมโครงงาน</div>
+                    <span class="teacher-subject">สาขาวิชาการบัญชี</span>
+                    <div class="teacher-college">วิทยาลัยเทคนิคกาญจนาภิเษกอุดรธานี</div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <img src="images/logo/KUTC-2.png" alt="วิทยาลัยเทคนิคกาญจนาภิเษกอุดรธานี" class="footer-college-logo">
+        <p class="footer-college-name">วิทยาลัยเทคนิคกาญจนาภิเษกอุดรธานี</p>
+        <p class="footer-college-en">KANCHANAPHISEK UDONTHANI TECHNICAL COLLEGE</p>
+        <p class="footer-college-info">1 หมู่ 1 ถ อุดร-ขอนแก่น ต.หนองไม่ อ.เมือง จ.อุดรธานี 11220</p>
+        <p class="footer-college-info">โทรศัพท์ 042-295547 , 042-207679</p>
+        <p class="footer-college-info">Email : kutcudon@gmail.com</p>
+        <div class="footer-divider" style="margin-top: 24px;"></div>
+        <div class="footer-logo">🍊 O'Rangee — Organic Clean Gel</div>
+        <p class="footer-desc">เจลล้างมือจากเปลือกส้ม สะอาด ปลอดภัย เป็นมิตรกับสิ่งแวดล้อม</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">↑</button>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
